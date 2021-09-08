@@ -2,11 +2,11 @@
     "docs_directory": "docs",
     "themes_directory": "themes",
 
-    "title": "My DAUX Test",
-    "tagline": "My Stylish Documentation",
-    "author": "meiner einer",
+    "title": "my Daux Test",
+    "tagline": "The Easiest Way To Document Your Project",
+    "author": "preinboth",
     "image": "",
-    "languages": {},
+    "languages": { },
 
     "cache": true,
 
@@ -39,23 +39,6 @@
             "Table_of_contents": "Table of Contents",
             "Toggle_navigation": "Toggle navigation"
         },
-        "fr": {
-            "CodeBlocks_show": "Afficher le code",
-            "Search_placeholder": "Rechercher...",
-            "Search_one_result": "1 résultat",
-            "Search_results": "!count résultats",
-            "Search_no_results": "Aucun résultat trouvé",
-            "Search_common_words_ignored": "Les mots communs sont ignorés",
-            "Search_too_short": "Critère de recherche trop court",
-            "Search_one_character_or_more": "Doit être un caractère ou plus",
-            "Search_should_be_x_or_more": "Doit être !min caractère ou plus",
-            "Link_previous": "Précédent",
-            "Link_next": "Suivant",
-            "Edit_on": "Editer sur :name:",
-            "View_on_github": "Voir sur GitHub",
-            "View_documentation": "Voir la Documentation",
-            "Table_of_contents": "Table des matières"
-        },
         "de": {
             "CodeBlocks_show": "Code-Blöcke anzeigen",
             "Search_placeholder": "Suchen...",
@@ -72,24 +55,8 @@
             "View_on_github": "Bei GitHub anzeigen",
             "View_documentation": "Dokumentation anzeigen",
             "Table_of_contents": "Inhaltsverzeichnis"
-        },
-        "it": {
-            "CodeBlocks_show": "Mostra blocchi di codice",
-            "Search_one_result": "1 risultato",
-            "Search_results": "!count risultati",
-            "Search_no_results": "Nessun risultato trovato",
-            "Search_common_words_ignored": "Le parole comuni vengono per lo più ignorate",
-            "Search_too_short": "Ricerca troppo breve",
-            "Search_one_character_or_more": "Dovrebbe essere composto da uno o più caratteri",
-            "Search_should_be_x_or_more": "Dovrebbe essere composto da almeno !min caratteri",
-            "Search_placeholder": "Cerca...",
-            "Link_previous": "Pagina precedente",
-            "Link_next": "Pagina successiva",
-            "Edit_on": "Modifica su :name:",
-            "View_on_github": "Guarda su GitHub",
-            "View_documentation": "Leggi la documentazione",
-            "Table_of_contents": "Contenuti"
         }
+
     },
 
     "timezone": "America/Los_Angeles",
@@ -107,10 +74,10 @@
         "auto_landing": true,
         "search": true,
         "auto_toc": false,
-        "inherit_index": false,
+        "inherit_index": true,
         "jump_buttons": true,
 
-        "repo": "",
+        "repo": "preinboth/testDaux",
         "twitter": [],
         "links": {
         },

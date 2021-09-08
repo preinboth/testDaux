@@ -1,5 +1,5 @@
 {
-    "name": "daux/daux.io",
+    "name": "preinboth/testDaux",
     "type": "project",
     "license": "MIT",
     "description": "Documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly",
@@ -7,12 +7,8 @@
     "homepage": "https://dauxio.github.io/",
     "authors": [
         {
-            "name": "Stéphane Goetz",
-            "homepage": "http://onigoetz.ch/"
-        },
-        {
-            "name": "Justin Walsh",
-            "homepage": "http://todaymade.com/"
+            "name": "Peter Reinboth",
+            "homepage": "http://excample.com/"
         }
     ],
     "bin": ["bin/daux"],
