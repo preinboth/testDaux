@@ -2,55 +2,6 @@
 
 ## Features
 
-
-### For Authors
-
--   [Auto Generated Navigation / Page sorting](01_Features/Navigation_and_Sorting.md)
--   [Internal documentation links](01_Features/Internal_links.md)
--   [CommonMark compliant](01_Features/CommonMark_compliant.md)
--   [Auto created homepage/landing page](01_Features/Landing_page.md)
--   [Multiple Output Formats](01_Features/Multiple_Output_Formats.md)
--   [Multiple Languages Support](01_Features/Multilanguage.md)
--   [No Build Step](01_Features/Live_mode.md)
--   [Static Output Generation](01_Features/Static_Site_Generation.md)
--   [Table of Contents](01_Features/Table_of_contents.md)
-
-### For Developers
-
--   [Auto Syntax Highlighting](01_Features/Auto_Syntax_Highlight.md)
--   [Math, Diagrams and Flowcharts](01_Features/Math_Diagrams_Flowcharts.md)
--   [Extend Daux.io with Processors](01_For_Developers/Creating_a_Processor.md)
--   Full access to the internal API to create new pages programatically
--   Work with pages metadata
-
-### For Marketing
-
--   100% Mobile Responsive
--   4 Built-In Themes or roll your own
--   Functional, Flat Design Style
--   Optional code float layout
--   Shareable/Linkable SEO Friendly URLs
--   Supports Google Analytics and Piwik Analytics
-
-## Demos
-
-This is a list of sites using Daux.io:
-
--   With a custom theme:
-    -   [Crafty](https://swissquote.github.io/crafty)
-    -   [Pixolution flow](https://docs.pixolution.org) \* [Soisy](https://doc.soisy.it/)
-    -   [Vulkan Tutorial](https://vulkan-tutorial.com)
-    -   [3Q](https://docs.3q.video/)
--   With the default Theme
-    -   [Daux.io](https://daux.io/)
-        _ [DoctrineWatcher](https://dsentker.github.io/WatcherDocumentation/)
-        _ [DrupalGap](http://docs.drupalgap.org/8/)
-    -   [ICADMIN: An admin panel powered by CodeIgniter.](http://istocode.com/shared/ic-admin/)
-    -   [Munee: Standalone PHP 5.3 Asset Optimisation & Manipulation](http://mun.ee)
-    -   [Nuntius: A PHP framework for bots](https://roysegall.github.io/nuntius-bot/)
-
-Do you use Daux.io? Send us a pull request or open an [issue](https://github.com/dauxio/daux.io/issues) and I will add you to the list.
-
 ## Getting Started
 
 ### Install
@@ -122,36 +73,4 @@ You can use PHP's embedded web server by running the following command in the ro
 
 Upload your files to an apache / nginx server and see your documentation
 
-[More informations here](01_Features/Live_mode.md)
 
-#### Export to other formats
-
-Daux.io is extendable and comes by default with three export formats:
-
--   Export to HTML, same as the website, but can be hosted without PHP.
--   Export all documentation in a single HTML page
--   Upload to your Atlassian Confluence server.
-
-[See a detailed feature comparison matrix](01_Features/Multiple_Output_Formats.md)
-
-To export, run the `daux` command and your documentation will be generated in `static` (you can change the destination with the `--destination` option)
-
-[See here for all options](01_Features/Static_Site_Generation.md)
-
-## Configuration
-
-Now that you got the basics, you can also [see what you can configure](05_Configuration/_index.md)
-
-## PHP Requirements
-
-Daux.io is compatible with the [officially supported](https://www.php.net/supported-versions.php) PHP versions; 7.4.0 and up.
-
-### Extensions
-
-Daux.io needs the following PHP extensions to work : `php-mbstring` and `php-xml`.
-
-If you encounter an error similar to `utf8_decode() not found` this means that you're missing the `php-xml` package.
-
-## Support
-
-If you need help using Daux.io, or have found a bug, please create an issue on the <a href="https://github.com/dauxio/daux.io/issues" target="_blank">GitHub repo</a>.
