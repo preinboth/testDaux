@@ -19,7 +19,7 @@ jobs:
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress --no-suggest
     - name: Generate documentation
-      run: bin/daux generate --value html.plausible_domain=preinboth/testDaux
+      run: vendor/bin/daux generate --themes=daux
     - name: Deploy same repository 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
