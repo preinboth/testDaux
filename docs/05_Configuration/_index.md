@@ -55,9 +55,6 @@ be read by the integrated web server. And you set the other formats (like conflu
 }
 ```
 
--   **html** with [its options](./Html_export.md)
--   **confluence** with [its options](./Confluence_upload.md)
-
 Available formats are **HTML** and **Confluence**
 
 ### Ignore
