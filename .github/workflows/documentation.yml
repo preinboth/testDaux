@@ -29,6 +29,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
         folder: "static"
-        token: ${{ secrets.GH_TOKEN_DAUX }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
         repository-name: preinboth/testDaux.github.io
