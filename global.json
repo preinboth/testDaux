@@ -77,7 +77,7 @@
         "inherit_index": true,
         "jump_buttons": true,
 
-        "repo": "preinboth/testDaux",
+        "repo": "preinboth/testDaux.github.io",
         "twitter": [],
         "links": {
         },
@@ -89,8 +89,5 @@
         "piwik_analytics_id": "0"
     },
 
-    "confluence": {
-        "prefix": "",
-        "delete": false
-    }
+
 }
