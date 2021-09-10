@@ -3,7 +3,7 @@ name: Documentation
 on:
   push:
     branches: [ master ]
-    
+
 jobs:
   documentation:
     runs-on: ubuntu-latest
@@ -25,4 +25,10 @@ jobs:
       with:
         folder: "static"
         branch: gh-pages
-
+    - name: Deploy in other repository 🚀
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        folder: "static"
+        token: ${{ secrets.GH_THOKEN_TEST_DAUX }}
+        branch: master
+        repository-name: preinboth/testDaux.github.io
