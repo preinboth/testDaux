@@ -1,6 +1,6 @@
 To customize the look and feel of your documentation, you can create a `config.json` file in the of the `/docs` folder. The `config.json` file is a JSON object that you can use to change some of the basic settings of the documentation.
 
-**Table of contents**
+
 
 [TOC]
 
