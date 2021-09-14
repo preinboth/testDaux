@@ -1,7 +1,9 @@
 name: "🐛 Bug Report"
 description: We broke something, again
 title: "[Bug]: "
-labels: ["needs triage"]
+labels: ["bug"]
+assignees:
+  - preinboth
 body:
   - type: markdown
     attributes:
