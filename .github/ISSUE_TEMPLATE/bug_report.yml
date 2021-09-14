@@ -10,8 +10,6 @@ body:
       value: |
         **Thanks for reporting an issue!** Please make sure you read our [issue guidelines](https://github.com/preinboth/testDaux/blob/master/.github/CONTRIBUTING.md) first, then fill out the fields below.
 
-        If you’re unsure whether the issue you’re having is a bug, you can post in [Discussions](https://github.com/preinboth/testDaux/discussions) instead.
-
   - type: textarea
     id: bug-steps
     attributes:
