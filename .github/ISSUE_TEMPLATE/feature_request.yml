@@ -1,7 +1,7 @@
 # https://github.com/babel/babel/blob/main/.github/ISSUE_TEMPLATE/feature_request.yml
 name: "🚀 Feature Request"
 description: "I have a specific suggestion for Theos!"
-labels: ["Enhancement"]
+labels: ["enhancement"]
 assignees:
   - preinboth
 body:
